@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <rect width="200" height="200" fill="#1a1443" rx="20"/>
+  <!-- Graduation cap -->
+  <path d="M100 50 L40 80 L100 110 L160 80 Z" fill="#4f46e5"/>
+  <path d="M100 110 L40 80 L40 120 L100 150 L160 120 L160 80 Z" fill="#06b6d4" opacity="0.8"/>
+  <rect x="155" y="80" width="6" height="40" fill="#4f46e5"/>
+  <circle cx="158" cy="125" r="8" fill="none" stroke="#4f46e5" stroke-width="2"/>
+  <!-- Book -->
+  <rect x="60" y="160" width="80" height="10" fill="#4f46e5" rx="2"/>
+  <rect x="65" y="155" width="70" height="5" fill="#06b6d4" rx="1"/>
+</svg>

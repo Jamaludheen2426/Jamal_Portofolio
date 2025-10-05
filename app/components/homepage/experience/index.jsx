@@ -1,10 +1,8 @@
 // @flow strict
 
-import { experiences } from "@/utils/data/experience";
 import Image from "next/image";
+import { experiences } from "@/utils/data/experience";
 import { BsPersonWorkspace } from "react-icons/bs";
-import experience from '../../../assets/lottie/code.json';
-import AnimationLottie from "../../helper/animation-lottie";
 import GlowCard from "../../helper/glow-card";
 
 function Experience() {
@@ -31,8 +29,14 @@ function Experience() {
       <div className="py-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16">
           <div className="flex justify-center items-start">
-            <div className="w-full h-full">
-              <AnimationLottie animationPath={experience} />
+            <div className="w-full h-full flex justify-center items-center p-4">
+              <Image
+                src="/experience-icon.svg"
+                alt="Coding Experience"
+                width={400}
+                height={400}
+                className="w-full h-auto max-w-md opacity-80"
+              />
             </div>
           </div>
 
@@ -50,12 +54,12 @@ function Experience() {
                         className="absolute bottom-0 opacity-80"
                       />
                       <div className="flex justify-center">
-                        <p className="text-xs sm:text-sm text-[#16f2b3]">
+<p className="text-xs sm:text-sm text-cyan-400">
                           {experience.duration}
                         </p>
                       </div>
                       <div className="flex items-center gap-x-8 px-3 py-5">
-                        <div className="text-violet-500  transition-all duration-300 hover:scale-125">
+<div className="text-indigo-500  transition-all duration-300 hover:scale-125">
                           <BsPersonWorkspace size={36} />
                         </div>
                         <div>

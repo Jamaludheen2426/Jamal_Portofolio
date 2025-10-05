@@ -1,0 +1,67 @@
+% Jamal - ATS-friendly LaTeX resume (single-page)
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=0.7in]{geometry}
+\usepackage{titlesec}
+\usepackage[colorlinks=true,linkcolor=black,urlcolor=black]{hyperref}
+\usepackage{enumitem}
+\usepackage{setspace}
+\usepackage{array}
+\usepackage{fontawesome5}
+\setlength{\parskip}{4pt}
+\setlength{\parindent}{0pt}
+\pagenumbering{gobble}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries}{}{0pt}{}
+\titlespacing*{\section}{0pt}{8pt}{4pt}
+
+% Header
+\begin{document}
+\begin{center}
+  {\LARGE \textbf{Jamal}}\\[2pt]
+  \faAt\ \href{mailto:jamaludheen779@gmail.com}{jamaludheen779@gmail.com}
+  \ | \ \faPhone\ +91 98846 99435
+  \ | \ \faGithub\ \href{https://github.com/Jamaludheen2426}{github.com/Jamaludheen2426}
+  \ | \ \faLinkedin\ \href{https://www.linkedin.com/in/jamal2426/}{linkedin.com/in/jamal2426/}
+\end{center}
+
+\section*{Summary}
+Full-stack developer with experience in .NET and React. Built scalable web apps, real-time features, and RESTful APIs. Strong in database design and clean architecture.
+
+\section*{Skills}
+\textbf{Languages:} C\#, JavaScript, Java, HTML/CSS\\
+\textbf{Frameworks:} .NET Framework, .NET Core, ASP.NET, ASP.NET Core, React.js, Next.js\\
+\textbf{Databases/ORM:} MySQL, MongoDB, Entity Framework, LINQ\\
+\textbf{Web:} RESTful APIs, Web API, MVC\\
+\textbf{Tools:} Git/GitHub, Visual Studio, VS Code, Postman, Swagger\\
+
+\section*{Experience}
+\textbf{FullStack Developer} \hfill Jul 2024 -- Present\\
+MAKINUS\\
+\begin{itemize}[leftmargin=*,nosep]
+  \item Developed enterprise apps using .NET Core and ASP.NET for network installation automation and engineering processes.
+  \item Implemented data visualization and backend services for real-time telemetry processing.
+  \item Contributed to scalable architecture and database design with Entity Framework and MySQL.
+\end{itemize}
+
+\textbf{Java Developer Intern} \hfill Apr 2023\\
+ICONIX SOFTWARE SOLUTION\\
+\begin{itemize}[leftmargin=*,nosep]
+  \item Worked on backend development focusing on database integration and API development.
+  \item Practiced OOP, SDLC, and enterprise best practices.
+\end{itemize}
+
+\section*{Projects}
+\textbf{College MERN Chat App} \hfill Team Project\\
+\emph{MongoDB, Express, React, Node.js, Socket.IO, Postman, Swagger}\\
+Real-time messaging with authentication and message persistence; responsive UI and RESTful APIs.\\
+
+\textbf{CRUD Generator (Practice)}\\
+\emph{Next.js, React, Vercel}\\
+Demonstration CRUD generator available on GitHub and deployed on Vercel.
+
+\section*{Education}
+\textbf{B.Sc. in Computer Science} \hfill 2021 -- 2024\\
+Sadakathulla Appa College, Tirunelveli \hfill CGPA: 7.9/10.0 (Grade A+)
+
+\end{document}
